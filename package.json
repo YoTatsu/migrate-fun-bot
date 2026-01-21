@@ -1,0 +1,20 @@
+{
+  "name": "migrate-fun-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord webhook bot for Solana migration alerts from migrate.fun",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^21.6.1"
+  },
+  "keywords": ["solana", "migration", "discord", "webhook", "migrate.fun"],
+  "license": "MIT"
+}
